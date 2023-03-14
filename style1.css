@@ -1,10 +1,11 @@
-/* ul{
+ul{
     list-style: none;
 }
 
 .list {
     display: flex;
-} */
+    gap: 20px;
+}
 
 .ubuntu {
     font-family: 'Ubuntu', sans-serif;
