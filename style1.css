@@ -1,16 +1,25 @@
 ul{
     list-style: none;
 }
-
+body{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #626262;
+}
+.header{
+    margin: 0 0 92px 0;
+}
 .menu {
     display: flex;
-    gap: 20px;
+    gap: 100px;
 }
 
 .menu-item {
 }
 
 .section-list {
+    width: 420px;
 }
 
 .section-list-item {
@@ -19,9 +28,8 @@ ul{
 .item-image {
 }
 
-.item-text-ubuntu {
+.ubuntu {
     font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
@@ -29,19 +37,11 @@ ul{
 }
 
 .item-head {
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 40px;
-    color: #626262;
 }
 
 .item-text {
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #626262;
 }
