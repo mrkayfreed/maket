@@ -2,12 +2,24 @@ ul{
     list-style: none;
 }
 
-.list {
+.menu {
     display: flex;
     gap: 20px;
 }
 
-.ubuntu {
+.menu-item {
+}
+
+.section-list {
+}
+
+.section-list-item {
+}
+
+.item-image {
+}
+
+.item-text-ubuntu {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -16,7 +28,7 @@ ul{
     color: #B4AD9E;
 }
 
-h2{
+.item-head {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -25,7 +37,7 @@ h2{
     color: #626262;
 }
 
-p{
+.item-text {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
