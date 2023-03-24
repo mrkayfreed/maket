@@ -24,6 +24,11 @@ body{
 .menu-item {
 }
 
+.menu-item:hover{
+    color: #03A9F4;
+    cursor: pointer;
+}
+
 .section-list {
     display: flex;
     gap: 65px;
@@ -34,6 +39,7 @@ body{
 }
 
 .item-image {
+    margin: 0 0 62px 0;
 }
 
 .ubuntu {
@@ -42,14 +48,26 @@ body{
     font-size: 14px;
     line-height: 16px;
     color: #B4AD9E;
+    
+    margin: 0 0 32px 0;
 }
 
 .item-head {
     font-size: 30px;
     line-height: 40px;
+
+    margin: 0 0 40px 0;
 }
 
 .item-text {
     font-size: 14px;
     line-height: 19px;
 }
+
+.but {
+    padding: 20px 40px;
+    margin: 114px 0 0 0 ;
+    background-color: white;
+    
+}
+
