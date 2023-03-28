@@ -36,6 +36,7 @@ body{
 }
 .section-list-item {
     width: 420px;
+    margin-bottom: 114px;
 }
 
 .item-image {
@@ -66,8 +67,6 @@ body{
 
 .but {
     padding: 20px 40px;
-    margin: 114px 0 0 0 ;
     background-color: white;
-    
 }
 
